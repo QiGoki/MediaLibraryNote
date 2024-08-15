@@ -484,6 +484,8 @@
    **注2：当然也可以有这种操作：监控目录在下载文件夹，这样通过别的方式下载的影音也可以整理了，当然这时候就不要关插件了。（非movelipot下载的不会自动整理）**
 
    **注3：不行！！这狗东西会在你下载的时候就进行转移，突然想起了官方wiki中提示的，需要在qbittorrent设置为下载好的文件要加后缀。也就是把这个勾打上。**
+   2024年8月15日更新
+   **注4：不行！！这狗东西会把空文件夹删了，会导致原有下载目录出问题。还是要整一个新的文件夹用来放其他下载，目录结构可以为downloads/otherWays，插件的监控目录就可以设置成downloads/otherWays。**
 
    ![image-20240815032725659](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815032725659.png)
 
@@ -491,13 +493,13 @@
 
    ![image-20240815032757268](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815032757268.png)
 
-4. 媒体库刮削插件等于挂上了tinymediamanager（tmm），就不用自己再起应用了。
+5. 媒体库刮削插件等于挂上了tinymediamanager（tmm），就不用自己再起应用了。
 
    填写好映射的自己的媒体库目录即可。
 
    ![](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815024916124.png)
 
-5. **好啦， 到这里就可下载电影享受咯。**
+6. **好啦， 到这里就可下载电影享受咯。**
 
 
 
