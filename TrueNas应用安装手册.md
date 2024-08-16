@@ -181,13 +181,21 @@
 >
 > ​		--...
 >
-> ​	-- Media（影音库主文件夹）
+> ​	--data
 >
-> ​		-- movie（电影）
+> ​		-- Media（影音库主文件夹）
 >
-> ​		-- tv（电视剧）
+> ​			-- movie（电影）
 >
-> ​		-- downloads（qb影音下载临时文件夹）.
+> ​			-- tv（电视剧）
+>
+> ​			-- downloads（qb影音下载临时文件夹）
+>
+> ​				--unclassified
+>
+> ​		--KodCloud
+>
+> ​		-- ... ...(Other app)
 
 **解释：**
 
@@ -333,6 +341,14 @@
 
 4. 以下是设置参考：![image-20240814224533481](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240814224533481.png)![image-20240814223910819](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240814223910819.png)
 
+   #### 规范化目录设置：
+
+   > /downloads:/mnt/pool/data/media/downloads(默认的那个/download)
+   >
+   > /config:/mnt/pool/ApplicationData/qbittorrent_config(默认的/config)
+   >
+   > /unclassified:/mnt/pool/data/media/downloads/unclassified(用来放置非moviepilot源下载的影音)
+
 ### 2.qbittorrent初始化
 
 1. **第一次安装时需要用临时密码进行登录，临时密码获取在上文提到的log处查看。**![image-20240814225129289](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240814225129289.png)
@@ -476,6 +492,10 @@
 
 3. **目录监控**用来将之前已有的影音文件整理到当前的影音库。
 
+   ##### 规范化设置：
+
+   > /downloads/unclassified#move
+
    详细设置图里写的很详细了
 
    ![image-20240815024246505](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815024246505.png)
@@ -500,13 +520,13 @@
 
    ![image-20240815032757268](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815032757268.png)
 
-5. 媒体库刮削插件等于挂上了tinymediamanager（tmm），就不用自己再起应用了。
+4. 媒体库刮削插件等于挂上了tinymediamanager（tmm），就不用自己再起应用了。
 
    填写好映射的自己的媒体库目录即可。
 
    ![](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815024916124.png)
 
-6. **好啦， 到这里就可下载电影享受咯。**
+5. **好啦， 到这里就可下载电影享受咯。**
 
 
 
