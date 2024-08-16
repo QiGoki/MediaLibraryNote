@@ -8,12 +8,19 @@
 
 > 官方下载网址：[Download TrueNAS SCALE - Data Storage Software](https://www.truenas.com/download-truenas-scale/)
 
-1. 右下角输入邮箱或No Thakn You。
+1. 右下角输入邮箱或No Thank You。
 
    ![image-20240815161354174](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/image-20240815161354174.png)
 
 2. 下载好镜像之后安装即可。
 
+> 附：U盘启动盘制作参数
+>
+> ​	**分区类型为MBR，写入模式为DD。**
+>
+> ![分区类型](https://cdn.jsdelivr.net/gh/QiGoki/MADPic@Pic/Pic/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240816103208.png)
+>
+> ![写入模式](C:/Users/65405/Desktop/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240816103423.png)
 ### 2.控制台初始化
 
 1. 安装完成后终端会见到以下画面，则安装完毕。
